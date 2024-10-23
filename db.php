@@ -3,8 +3,8 @@
 
 $host = 'localhost'; // Endereço do servidor MySQL
 $db = 'censopcd'; // Nome do banco de dados
-$user = 'root'; // Usuário do MySQL
-$pass = ''; // Senha do MySQL (se houver)
+$user = 'user'; // Usuário do MySQL
+$pass = 'user'; // Senha do MySQL (se houver)
 
 // Estabelecendo a conexão
 $conn = new mysqli($host, $user, $pass, $db);
